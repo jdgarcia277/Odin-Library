@@ -1,0 +1,54 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fffef7;
+    font-size: 20px;
+}
+body{
+    padding:0;
+    margin:0;
+}
+header{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.banner{
+    width: 100%;
+    height: 60vh;
+    background-image: url('/Images/Odin-Library-resize3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    color: #fffef7;
+}
+.banner h1{
+    font-size: 3rem;
+}
+.banner a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+.banner button{
+    height:3rem;
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+}
+.banner-container-left{
+    margin:5%;
+}
