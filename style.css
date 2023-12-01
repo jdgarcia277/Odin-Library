@@ -1,6 +1,6 @@
 html{
     font-family: 'Montserrat', sans-serif;
-    background-color: #fffef7;
+    background-color: #1E1E1E;
     font-size: 20px;
 }
 body{
@@ -16,7 +16,7 @@ header{
 }
 header a{
     text-decoration: none;
-    color: black;
+    color: #fffef7;
 }
 .logo{
     height: 40px;
@@ -38,6 +38,7 @@ header a{
 }
 .banner h1{
     font-size: 3rem;
+    cursor: default;
 }
 .banner a{
     text-decoration: none;
@@ -49,6 +50,9 @@ header a{
     width: 40%;
     border-radius: 20px;
     border: none;
+}
+.banner p{
+    cursor: default;
 }
 .banner-container-left{
     margin:5%;
@@ -65,11 +69,12 @@ header a{
 .main-container>div h1{
     color: #fffef7;
     font-size: 2.5rem;
+    cursor: default;
 }
 .main-container>div {
     border-radius: 20px;
     text-align: center;
-    box-shadow: 5px 5px 5px #354a63;
+    box-shadow: 2px 2px 2px #354a63;
 }
 .card-links-home{
     height:75%;
