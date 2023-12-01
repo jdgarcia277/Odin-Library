@@ -25,7 +25,7 @@ header a{
 .banner{
     width: 100%;
     height: 60vh;
-    background-image: url('/Images/Odin-Library-resize3.jpeg');
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -35,6 +35,12 @@ header a{
     gap: 50%;
     color: #fffef7;
     box-shadow: 0px 5px 5px #354a63;
+}
+.banner-home{
+    background-image: url('/Images/Odin-Library-resize3.jpeg');
+}
+.banner-catalog{
+    background-image: url('/Images/odl-aisle-catalog.png');
 }
 .banner h1{
     font-size: 3rem;
