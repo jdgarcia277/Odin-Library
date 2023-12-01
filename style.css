@@ -34,6 +34,7 @@ header a{
     align-items: center;
     gap: 50%;
     color: #fffef7;
+    box-shadow: 0px 5px 5px #354a63;
 }
 .banner h1{
     font-size: 3rem;
@@ -51,4 +52,54 @@ header a{
 }
 .banner-container-left{
     margin:5%;
+}
+.main-container{
+    width: 100%;
+    height: 600px;
+    margin: 0 1%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+.main-container>div h1{
+    color: #fffef7;
+    font-size: 2.5rem;
+}
+.main-container>div {
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #354a63;
+}
+.card-links-home{
+    height:75%;
+    width:75%;
+   background-image: url('/Images/odl-book-home-ratio.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.card-links-catalog{
+    height: 75%;
+    width: 75%;
+    background-image: url('/Images/odl-aisle-catalog.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-links-resource{
+    height: 75%;
+    width: 75%;
+    background-image: url('/Images/odl-desk-resource.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-links-community{
+    height: 75%;
+    width: 75%;
+    background-image: url('/Images/odl-globe-community.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
