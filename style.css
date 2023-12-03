@@ -149,11 +149,17 @@ header a{
     justify-content: center;
     align-items: center;
 }
+.read-status:hover{
+    background-color: #b30000;
+}
 .remove-book{
     background-color: #e6e6e6;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.remove-book:hover{
+    background-color: #cccccc;
 }
 .read-status, .remove-book{
     width: 80%;
