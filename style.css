@@ -149,8 +149,8 @@ header a{
     justify-content: center;
     align-items: center;
 }
-.read-status:hover{
-    background-color: #b30000;
+.read-status:hover {
+    filter: brightness(85%);
 }
 .remove-book{
     background-color: #e6e6e6;
