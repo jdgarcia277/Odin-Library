@@ -5,7 +5,7 @@ function Book(title, author, read) {
     this.read = read;
 }
 // Add a sample book to the library
-myLibrary.push(new Book("Lord of the Rings: Fellowship of the Ring", "JRR Tolkien", false));
+//myLibrary.push(new Book("Lord of the Rings: Fellowship of the Ring", "JRR Tolkien", false));
 
 function displayBooks() {
     const catalogContainer = document.querySelector('.catalog-container');

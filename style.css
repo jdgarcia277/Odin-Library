@@ -152,6 +152,12 @@ header a{
 .read-status:hover {
     filter: brightness(85%);
 }
+.add-book:hover{
+    filter: brightness(85%);
+}
+.buttonA:hover{
+    filter: brightness(85%);
+}
 .remove-book{
     background-color: #e6e6e6;
     display: flex;
